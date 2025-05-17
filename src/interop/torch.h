@@ -26,7 +26,6 @@ class TorchOpContext {
 public:
     TorchOpContext();
     TorchOpContext(const TorchOpContext &) = delete;
-    // 禁止移动构造函数
     TorchOpContext(TorchOpContext &&)      = delete;
     ~TorchOpContext();
 };
